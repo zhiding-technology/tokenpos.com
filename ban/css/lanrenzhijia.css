@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{color:#333;text-decoration:none;}
+a:hover{color:#c00; text-decoration:underline;}
+
+#slide-index {position: relative; min-width: 1000px; width: auto; height:450px; overflow: hidden}
+#slide-index .slides {min-width: 1000px; width: auto; height:450px}
+#slide-index .slide {position: relative; min-width: 1000px; float: left; height:450px}
+#slide-index .image {z-index: 1; position: absolute}
+#slide-index .button {width: 138px; display: none}
+#slide-index .control {z-index:40; position: absolute; text-align: center; width: 100%; bottom:0; height: 19px; cursor: pointer}
+#slide-index .control a{background-image:url("../images/hw_000505.gif"/*tpa=https://www.ccyyxx.com/templets/default/ban/images/hw_000505.gif*/); width: 60px; display: inline-block; background-repeat: no-repeat; height: 11px; cursor: pointer; margin-right: 6px;}
+#slide-index .control a:hover {background-image: url("../images/hw_000506.gif"/*tpa=https://www.ccyyxx.com/templets/default/ban/images/hw_000506.gif*/); opacity: 1}
+#slide-index .control a.active {background-image: url("../images/hw_000506.gif"/*tpa=https://www.ccyyxx.com/templets/default/ban/images/hw_000506.gif*/); opacity: 1}
+.autoMaxWidth {position: relative; height: 232px; overflow: hidden}
